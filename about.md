@@ -3,28 +3,8 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+I am a junior software developer for [Aderant](http://aderant.com) who started a bit less traditionally than many other developers. In a former life, I was a graduate student studying [auditory selective attention](http://en.wikipedia.org/wiki/Selective_auditory_attention) under [Dr. David W. Smith](http://www.psych.ufl.edu/~smithlab/Smithlab/Smith_Lab_Overview.html), when I rediscovered my love for programming and decided to work my way out of the 60+ hour weeks in a subterranean lab the size of a utility closet (well, it *was* a utility closet). 
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+As such, I have widely varied interests, ranging from science and science education to web, enterprise, and mobile development, to fitness and bodybuilding, gaming, comic collecting, and learning foreign languages. My hobbies can really be distilled down to one thing: learning. 
 
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Thank you for visiting, I hope that you will find something that ignites your interest in something new, that teaches you a new trick (or induces you to teach me something!), or otherwise inspires. 
