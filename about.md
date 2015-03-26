@@ -1,12 +1,6 @@
 ---
-layout: page
-title: About
+layout: post
+title: A Short Introduction to this Site
 ---
 
-I am a junior software developer for [Aderant](http://aderant.com) who started a bit less traditionally than many other developers. In a former life, I was a graduate student studying [auditory selective attention](http://en.wikipedia.org/wiki/Selective_auditory_attention) under [Dr. David W. Smith](http://www.psych.ufl.edu/~smithlab/Smithlab/Smith_Lab_Overview.html). 
-
-It was then that I rediscovered my love for programming and decided to work my way out of the 60+ hour weeks in a subterranean lab the size of a utility closet (well, it *was* a utility closet). With a little help from my friends, I was able to successfully make this transition and get my first job in development. 
-
-As such, I have widely varied interests, ranging from science and science education to web, enterprise, and mobile development, to fitness and bodybuilding, gaming, comic collecting, and learning foreign languages. My hobbies can really be distilled down to one thing: learning. 
-
-Thank you for visiting, I hope that you will find something that ignites your interest in something new, that teaches you a new trick (or induces you to teach me something!), or otherwise inspires. 
+This site is hosted on [Github Pages](http://pages.github.com) and built using [jekyll](http://jekyllrb.com) with the [lanyon](http://github.com/poole/lanyon) theme. My plan for this site is to serve as a hub to view my projects, social media profiles, and, most importantly, to share what I've learned from implementing various projects. My hope with this blog is that it will help others who have run into similar roadblocks to think about a way around (or through) them. I will be implementing more features as time goes on, and in a future post I will share how this site was set up and customized.
