@@ -1,0 +1,19 @@
+.sidebar {
+2       opacity: 0.8;
+3   }
+4   
+5   .sidebar:hover {
+6       opacity: 1.0;
+7   }
+8   
+9   .sidebar-logo {
+10      padding: 1.5rem;
+11  }
+12  
+13  .sidebar-logo img {
+14      border-radius: 50%;
+15      -moz-border-radius: 50%;
+16      -webkit-border-radius: 50%;
+17      width: 160px;
+18      margin: 0 auto;
+19  }
