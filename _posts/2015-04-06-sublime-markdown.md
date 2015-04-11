@@ -2,7 +2,7 @@
 layout: post
 title: Sublime Markdown
 category: productivity
-tags: [ editor, markdown, notes ] 
+tags: [ editor, markdown, notes, tutorial ] 
 comments: true
 ---
 
