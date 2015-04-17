@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setting Up an Elegant Blog with Github Pages, Jekyll, and Poole: Part I
+title: Setting Up an Elegant Blog with Github Pages, Jekyll, and Poole; Part I
 comments: true
 tags: [ web, tutorial, markdown  ]
 ---
