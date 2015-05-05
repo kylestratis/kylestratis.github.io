@@ -16,6 +16,7 @@ url:                 http://kylestratis.com
 giturl:				 http://kylestratis.github.io
 baseurl:             /
 paginate:            5
+rss:                 atom.xml
 
 # About/contact
 author:

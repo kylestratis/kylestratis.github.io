@@ -58,8 +58,17 @@
       </a>
     {% endif %}
 
-  </div>
+    {% if site.rss %}
+      <a href="{{ site.url }}/atom.xml">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-rss fa-stack-1x"></i>
+        </span>
+      </a>
+    {% endif %}
 
+  </div>
+<!--  -->
   <div class="sidebar-item" style="text-align: center">
     <p>{{ site.description }}</p>
   </div>
@@ -81,7 +90,6 @@
       {% endif %}
     {% endfor %}
 
-    
     <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
