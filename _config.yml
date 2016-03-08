@@ -1,19 +1,18 @@
 # Dependencies
-markdown:            redcarpet
+markdown:            kramdown
 highlighter:         pygments
 
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
 
 # Setup
 title:               Kyle Stratis
 tagline:             'Software Developer in Tallahassee, FL'
 description:         'On an eternal quest to build and learn'
 url:                 http://kylestratis.com
-giturl:				 http://kylestratis.github.io
+giturl:				       http://kylestratis.github.io
 baseurl:             /
 paginate:            5
 rss:                 atom.xml
