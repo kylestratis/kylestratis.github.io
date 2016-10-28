@@ -16,12 +16,12 @@ s/\.*//g foreach keys %my_hash;
 For those deeply familiar with Perl, the error probably seems obvious - `keys` doesn't return references to the keys in the hash for you to manipulate in place, it instead returns copies of the keys. These copies are what we're iterating through with `foreach` and stripping the period from. 
 
 If we use `Data::Dumper` on `%my_hash`, we will be greeted with the hash in its original state:
-```
+{% highlight bash %}
 $VAR1 = {
           'al.pha' => 'a',
           'beta' => 'b'
         };
-```
+{% endhighlight %}
 
 But if we instead print the default variable within the foreach after the substitution with a little code reorganization:
 {% highlight perl %}
@@ -33,12 +33,12 @@ print Dumper(keys %hash);
 {% endhighlight%}
 
 This is our output:
-```
+{% highlight bash %}
 Default var: a
 Default var: alpha
 $VAR1 = 'al.pha';
 $VAR2 = 'a';
-```
+{% endhighlight %}
 
 So the values in `$_` were correctly stripped of periods, but the actual keys in the hash were unaffected. Let's continue on this path (using the substitution operator `s///` with a `foreach`) - if you have used Perl for any appreciable amount of time, you know TIMTOWTDI (pronounced "Tim Toady": **t**here **i**s **m**ore **t**han **o**ne **w**ay **t**o **d**o **i**t) is a guiding philosophy behind Perl, and there are a number of ways to tackle a problem like this. We will be continuing the use of `keys`, though. Since `keys` returns a copy of a hash's keys, we can load it into a new array:
 {% highlight perl %}
@@ -69,11 +69,11 @@ s/\.*//g foreach @new_keys;
 {% endhighlight %}
 
 And the results:
-```
+{% highlight perl %}
 $VAR1 = {
           'alpha' => 'a',
           'beta' => 'b'
         };
-```
+{% endhighlight %}
 
 Success!
