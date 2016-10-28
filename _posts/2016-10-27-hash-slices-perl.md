@@ -50,7 +50,7 @@ Easy enough. Now we can iterate over this and use the substitution operator to s
 s/\.*//g foreach @new_keys;
 {% endhighlight%}
 
-Here comes the perl magic, can you see all the things that are accomplished in this one line? 
+Here comes the Perl magic, can you see all the things that are accomplished in this one line? 
 
 {% highlight perl %}
 @my_hash{@new_keys} = delete @my_hash{keys %my_hash};
