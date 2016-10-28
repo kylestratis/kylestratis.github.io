@@ -23,7 +23,7 @@ $VAR1 = {
         };
 {% endhighlight %}
 
-But if we instead print the default variable within the foreach after the substitution with a little code reorganization:
+But if we instead print the default variable within the `foreach` after the substitution with a little code reorganization:
 {% highlight perl %}
 foreach (keys %hash) {
     s/\.*//g;
@@ -40,7 +40,7 @@ $VAR1 = 'al.pha';
 $VAR2 = 'a';
 {% endhighlight %}
 
-So the values in `$_` were correctly stripped of periods, but the actual keys in the hash were unaffected. Let's continue on this path (using the substitution operator `s///` with a `foreach`) - if you have used Perl for any appreciable amount of time, you know TIMTOWTDI (pronounced "Tim Toady": **t**here **i**s **m**ore **t**han **o**ne **w**ay **t**o **d**o **i**t) is a guiding philosophy behind Perl, and there are a number of ways to tackle a problem like this. We will be continuing the use of `keys`, though. Since `keys` returns a copy of a hash's keys, we can load it into a new array:
+So the keys stored in `$_` were correctly stripped of periods, but the actual keys in the hash were unaffected. Let's continue on this path (using the substitution operator `s///` with a `foreach`) - if you have used Perl for any appreciable amount of time, you know TIMTOWTDI (pronounced "Tim Toady": **t**here **i**s **m**ore **t**han **o**ne **w**ay **t**o **d**o **i**t) is one of the language's guiding philosophies, and there are a number of ways to tackle a problem like this. We will be continuing the use of `keys`, though. Since `keys` returns a copy of a hash's keys, we can load it into a new array:
 {% highlight perl %}
 my @new_keys = keys %my_hash;
 {% endhighlight%}
