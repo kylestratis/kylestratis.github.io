@@ -55,7 +55,7 @@ if (ref($value) eq 'HASH') {
 
 ## Flattening
 
-If `$value` is not a reference to a hash, then we're in our base case (you can expand the recursive case check to include arrays) - `$value` is an actual scalar value. 
+If `$value` is not a reference to a hash, then we're in our base case (you can expand the recursive case check to include arrays, but I'll leave that as an exercise to the reader) - `$value` is an actual scalar value. 
 
 {% highlight perl %}
 else {
@@ -108,7 +108,7 @@ my $test_hash = {
 };
 
 my %empty;
-my %res = deep_keys_foreach(\%empty, hashref => $test_hash, arguments => []);
+my %res = flatten_hash(\%empty, hashref => $test_hash, arguments => []);
 print "Test hash:\n";
 print Dumper($test_hash);
 print "Result\n";
