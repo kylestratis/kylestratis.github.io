@@ -18,7 +18,7 @@ We can choose to flatten in any way we want. Since this was originally conceived
 
 Since we will be writing a recursive function, we know we will at least have to take as an input the next level of hash available (we will be doing a depth-first traversal). Since we need to keep track of every level we get into for flattening, we should also keep track of the keys through each call. Another hash reference, which we will call `output`, will also need to be passed in to each recursive call, which will be loaded with our key-value pairs as we unwind the stack.
 
-This will be a special, unnamed parameter, and will be `undef` on the call your program makes to `flatten_hash`. So the parameters we will pass in to our function will be the unnamed output, your input hash, and an initially empty arrayref that will keep track of the keys that point to subhashes. 
+This will be a special, unnamed parameter, and will be `undef` on the call your program makes to `flatten_hash`. So the parameters we will pass in to our function will be the undefined output, your input hash, and an initially empty arrayref that will keep track of the keys that point to subhashes. 
 
 {% highlight perl %}
 # Named inputs: original_hash, keys_list
