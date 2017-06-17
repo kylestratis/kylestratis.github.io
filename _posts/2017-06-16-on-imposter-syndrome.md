@@ -1,6 +1,6 @@
 ---
 layout: post
-title On Imposter Syndrome
+title: On Imposter Syndrome
 comments: true
 tags: [ personal, business ]
 ---
