@@ -11,8 +11,8 @@ permalink:           pretty
 title:               Kyle Stratis
 tagline:             'Software Developer in Tallahassee, FL'
 description:         'On an eternal quest to build and learn'
-url:                 http://kylestratis.com
-giturl:				       http://kylestratis.github.io
+url:                 https://kylestratis.com
+giturl:				       https://kylestratis.github.io
 baseurl:             /
 paginate:            5
 rss:                 atom.xml
