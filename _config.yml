@@ -13,7 +13,7 @@ tagline:             'Software Developer in Tallahassee, FL'
 description:         'On an eternal quest to build and learn'
 url:                 https://kylestratis.com
 giturl:				       https://kylestratis.github.io
-baseurl:             https://kylestratis.com/
+baseurl:             https://kylestratis.github.io/
 paginate:            5
 rss:                 atom.xml
 
