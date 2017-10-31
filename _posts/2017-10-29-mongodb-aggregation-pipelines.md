@@ -52,7 +52,7 @@ $project->$avg->$out
 ## Conclusion
 I learned a lot of lessons from this little project, and wanted to distill them here as a sort of tl;dr to ensure that they can be passed on to the reader. 
 
-* Management is convinced by data. Run your proposed changes, show them graphs of numbers of performance improvements. You're all working to the same goal. 
+* Management is convinced by data. Run your proposed changes, show them graphs or numbers of performance improvements. You're all working to the same goal. 
 * ABB. Always Be Building. In my case, my work on [NASDANQ](https://nasdanq.com) gave me the knowledge I needed to hear a teammate's struggles, identify a use case, and implement a plan to alleviate those issues.
 * Standups suck, but they're useful. Hearing my teammate's struggles with this code during a standup meeting allowed me to assist him and come up with a workable solution. 
 * More generally, communication is important. Not only was understanding my teammate's needs important, but this project required constant contact between our DBA team, me and my teammate (who was running many of our tests), and management of our team, the DBA team, and the larger team we report to. 
