@@ -3,10 +3,17 @@ layout: page
 title: About
 ---
 
-I am a junior software developer currently living in Tallahassee, FL who started a bit less traditionally than many other developers. In a former life, I was a graduate student studying [auditory selective attention](http://en.wikipedia.org/wiki/Selective_auditory_attention) under [Dr. David W. Smith](http://www.psych.ufl.edu/~smithlab/Smithlab/Smith_Lab_Overview.html). 
+##ES
+Soy Jesús Herman Marina, un UX Designer & Front End que reside en Vilanova i La Geltrú, cerca de Barcelona. Me apasionan el diseño, el desarrollo y emprender. Soy un seguidor de la filosofía Lean Startup. Me encanta diseñar y crear sitios web estables, centrados en el usuario.
 
-It was then that I rediscovered my love for programming and decided to work my way out of the 60+ hour weeks in a subterranean lab the size of a utility closet (well, it *was* a utility closet). With a little help from my friends, I was able to successfully make this transition and get my first job in development. 
+He trabajado como autónomo durante algunos años y en este momento estoy trabajando de forma remota como diseñador sénior de UX / UI para SUSE, una compañía de software de código abierto.
 
-I am interested in more things than not, ranging from science and science education to web, enterprise, and mobile development, to fitness and bodybuilding, gaming, comic collecting, history, learning foreign languages, the Oxford comma, and more. My hobbies can really be distilled down to one thing: learning. 
+Me gusta pasar mi tiempo libre con mi esposa, niños y perro, andar en bicicleta y trabajar en proyectos de bricolaje y hacking.
 
-Thank you for visiting, I hope that you will find something that ignites your interest in something new, that teaches you a new trick, or inspires you to teach me something new!
+##EN
+
+I'm Jesús Herman-Marina, a UX Designer & Front End developer living in Vilanova i La Geltrú, near Barcelona. I’m passionate about design, development and entrepreneurship. I embrace the lean startup. I love designing and building user centric websites that perform.
+
+I have worked as a freelance for some years and right now I’m working remotely as a Senior UX/UI Designer for SUSE, an open-source software company.
+
+I like to spend my free time with my wife, kids and dog, riding bicycle and working on DIY & hacking projects.
