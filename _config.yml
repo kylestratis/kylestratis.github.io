@@ -8,27 +8,26 @@ highlighter:         rouge
 permalink:           pretty
 
 # Setup
-title:               Kyle Stratis
-tagline:             'Software Developer in Tallahassee, FL'
-description:         'On an eternal quest to build and learn'
-url:                 https://kylestratis.com
-giturl:				       https://kylestratis.github.io
-baseurl:             https://kylestratis.github.io/
+title:               Jesus Herman-Marina
+tagline:             'UX/UI from Barcelona'
+description:         'Escribo sobre diseño, desarrollo, hacking y making'
+url:
+giturl:				       https://jezuhke.github.io
+baseurl:             https://jezuhke.github.io/
 paginate:            5
 rss:                 atom.xml
 
 # About/contact
 author:
-  name:             Kyle Stratis
-  github:           kylestratis
-  email:            kylestratis@gmail.com
-  linkedin:         kylestratis
-  goodreads:        kylestratis
-  google_scholar:   http://scholar.google.com/citations?hl=en&user=-WO2ezMAAAAJ
-  gravatar_md5:     89b28e44e0840bc12ece69b274c29606
+  name:             Jesus Herman-Marina
+  github:           jezuhke
+  email:            jhmarina@gmail.com
+  linkedin:         jesusherman
+  goodreads:        62752702
+  gravatar_md5:     7dc234e9aeb6d6d0aec317b18ba6a95a
 
 # Custom vars
-version:             1.0.1
+version:             1.0.0
 
 github:
   repo:           https://github.com/kylestratis/kylestratis.github.io
