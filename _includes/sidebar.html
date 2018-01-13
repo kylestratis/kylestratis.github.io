@@ -4,7 +4,7 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
-  
+
   <div class="sidebar-logo" style="align:center">
       <img src="http://www.gravatar.com/avatar/{{ site.author.gravatar_md5 }}?s=120" />
   </div>
@@ -49,15 +49,6 @@
       </a>
     {% endif %}
 
-    {% if site.author.google_scholar %}
-      <a href="{{ site.author.google_scholar }}">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-square-o fa-stack-2x"></i>
-          <i class="fa fa-google fa-stack-1x"></i>
-        </span>
-      </a>
-    {% endif %}
-
     {% if site.rss %}
       <a href="{{ site.url }}/atom.xml">
         <span class="fa-stack fa-lg">
@@ -68,7 +59,7 @@
     {% endif %}
 
   </div>
-  
+
   <div class="sidebar-item" style="text-align: center">
     <p>{{ site.description }}</p>
   </div>
