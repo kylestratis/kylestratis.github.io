@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Impresionante juego educativo sobre el sistema solar
+category: general
 comments: true
-tags: [ general,  ]
+tags: [ general ]
 ---
 
 La mayoría de nosotros cuando nos quedamos sin trabajo nos desesperamos. Nos invade un sentimiento de impotencia y nos bloqueamos. Esto no le ha pasado a [Christopher Albeluhn](http://www.chrisalbeluhn.com/work.html), un diseñador de videojuegos, que ha creado un juego educativo para que podamos explorar el sistema solar en 3D.

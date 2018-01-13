@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Configura iTerm2 con oh-my-zsh y powerline en OSX
+category: desarrollo
 comments: true
 tags: [ terminal, bash ]
 ---

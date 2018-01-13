@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About/Sobre
+title: Sobre (About)
 ---
 
 ## ES
