@@ -19,6 +19,15 @@
         </a>
       {% endif %}
 
+      {% if site.author.behance %}
+        <a href="https://behance/{{ site.author.behance }}">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-square-o fa-stack-2x"></i>
+            <i class="fa fa-behance fa-stack-1x"></i>
+          </span>
+        </a>
+      {% endif %}
+
       {% if site.author.linkedin %}
         <a href="https://linkedin.com/in/{{ site.author.github }}">
           <span class="fa-stack fa-lg">
@@ -36,6 +45,7 @@
           </span>
         </a>
       {% endif %}
+
   </div>
 
   <div id="contact-list" style="text-align:center">
@@ -81,7 +91,7 @@
       {% endif %}
     {% endfor %}
 
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+    <a class="sidebar-nav-item" href="{{ site.github.repo }}">Download this template</a>
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
 

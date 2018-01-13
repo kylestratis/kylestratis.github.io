@@ -21,6 +21,7 @@ rss:                 atom.xml
 author:
   name:             Jesus Herman-Marina
   github:           jezuhke
+  behance:          jhmarina
   email:            jhmarina@gmail.com
   linkedin:         jesusherman
   goodreads:        62752702-jesus-herman
@@ -30,4 +31,4 @@ author:
 version:             1.0.0
 
 github:
-  repo:           https://github.com/kylestratis/kylestratis.github.io
+  repo:           https://github.com/jezuhke/jezuhke.github.io
