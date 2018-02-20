@@ -27,7 +27,7 @@ There is rich support (via plugins) for [Markdown](https://help.github.com/artic
 
 Thanks to Sublime Text's excellent Package Control installing these plugins is a breeze. Launch Package control with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd> and type 'Install Package' and then <kbd>Enter</kbd>. Now start typing the plugin name you wish to install, <kbd>Enter</kbd> again, and that's it! Repeat this process for each plugin you wish to install. 
 
-![Package Control in Sublime Text]({{ site.url }}/assets/sublime-text-package-control.png)
+![Package Control in Sublime Text]({{ site.baseurl }}/assets/sublime-text-package-control.png)
 
 ### The Customization
 
