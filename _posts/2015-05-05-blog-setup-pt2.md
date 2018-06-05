@@ -11,15 +11,15 @@ I guess it's time to talk a little bit about the finishing touches I did to cust
 
 I used the following sites for help with these customizations, ideas, code, and more. Be sure to visit them and poke around a bit:
 
-* [How I Created a Beautiful and Minimal Blog Using Jekyll, Github Pages, and poole](http://joshualande.com/jekyll-github-pages-poole/) - Joshua Lande discusses the route he took in setting up his blog with a detailed write-up of how he bootstrapped and customized his site. A very helpful guide.
-* [Using Jekyll, Poole and Lanyon to Setup My Github User Page](http://patricksteadman.ca/2014/08/04/lanyonsetup/) - Patrick Steadman briefly lists the customizations on his Jekyll site and links to articles to read about them. I loved how he customized his sidebar, and used much of the same design. 
+* [How I Created a Beautiful and Minimal Blog Using Jekyll, Github Pages, and poole](https://joshualande.com/jekyll-github-pages-poole/) - Joshua Lande discusses the route he took in setting up his blog with a detailed write-up of how he bootstrapped and customized his site. A very helpful guide.
+* [Using Jekyll, Poole and Lanyon to Setup My Github User Page](https://patricksteadman.ca/2014/08/04/lanyonsetup/) - Patrick Steadman briefly lists the customizations on his Jekyll site and links to articles to read about them. I loved how he customized his sidebar, and used much of the same design. 
 * [Github Help on Markdown Syntax](https://help.github.com/articles/markdown-basics/)
 * [Liquid Markup Documentation](https://github.com/Shopify/liquid/wiki)
-* [Jekyll Project Official Site](http://jekyllrb.com/)
+* [Jekyll Project Official Site](https://jekyllrb.com/)
 
 ## Enabling Disqus Comments
 
-First, visit the [Disqus website](http://www.disqus.com), set up an account, and log in. Upon logging in you will be brought to your dashboard. Click the gear in the top right corner, and in the dropdown box select "Add Disqus to Site." Follow the commands until you get to the unique code for your disqus comments.
+First, visit the [Disqus website](https://www.disqus.com), set up an account, and log in. Upon logging in you will be brought to your dashboard. Click the gear in the top right corner, and in the dropdown box select "Add Disqus to Site." Follow the commands until you get to the unique code for your disqus comments.
 
 Now, shifting forcus to your site, you'll want to add the following line to `_layouts/default.html`:  
 
@@ -67,7 +67,7 @@ The first thing you see is this liquid tag: {% highlight liquid %}{% raw %}{% if
 
 The `disqus_identifier` configuration variable does not come from the universal code, but it helps Disqus return the appropriate thread for your article. See more about Disqus configuration variables [here](https://help.disqus.com/customer/portal/articles/472098-javascript-configuration-variables).
 
-This code was adapted from [Joshua Lande's excellent article](http://joshualande.com/jekyll-github-pages-poole/).
+This code was adapted from [Joshua Lande's excellent article](https://joshualande.com/jekyll-github-pages-poole/).
 
 ## Enabling Google Analytics
 
@@ -89,7 +89,7 @@ A favicon can be built an an image editor like GIMP, and there are a number of s
 
 ## Tags Page
 
-This page was modified from [Patrick Steadman's site](http://patricksteadman.ca/2014/08/04/lanyonsetup/) that I mentioned earlier. You can store this page in the root folder for your site as `tags.html`. A slight modification from his version was to comment out the code that displays the number of articles with a given tag, as you can see [in my repo](https://github.com/kylestratis/kylestratis.github.io/blob/master/tags.html). Feel free to copy and paste the code directly, and note how the YAML frontmatter declares it a `page` rather than a `post`. 
+This page was modified from [Patrick Steadman's site](https://patricksteadman.ca/2014/08/04/lanyonsetup/) that I mentioned earlier. You can store this page in the root folder for your site as `tags.html`. A slight modification from his version was to comment out the code that displays the number of articles with a given tag, as you can see [in my repo](https://github.com/kylestratis/kylestratis.github.io/blob/master/tags.html). Feel free to copy and paste the code directly, and note how the YAML frontmatter declares it a `page` rather than a `post`. 
 
 ## Sidebar
 
@@ -139,7 +139,7 @@ The logo will be your gravatar (details below), and this sets the location (via 
 
 ### Gravatar
 
-First, we will set up a gravatar. Go to [Gravatar's site](http://gravatar.com) and set up an account, if you don't have one already. Upload the image you wish to use, and follow all the instructions for setting up your gravatar. Eventually, you will be given an email hash, and you should add this to your `_config.yml` file, something like this (with other identifiers removed):
+First, we will set up a gravatar. Go to [Gravatar's site](https://gravatar.com) and set up an account, if you don't have one already. Upload the image you wish to use, and follow all the instructions for setting up your gravatar. Eventually, you will be given an email hash, and you should add this to your `_config.yml` file, something like this (with other identifiers removed):
 
 ```yaml
 author:
@@ -150,7 +150,7 @@ Then open up your sidebar HTML file and add this line right inside the first div
 
 ```html
  <div class="sidebar-logo" style="align:center">
-      <img src="http://www.gravatar.com/avatar/{% raw %}{{ site.author.gravatar_md5 }}{% endraw %}?s=120" />
+      <img src="https://www.gravatar.com/avatar/{% raw %}{{ site.author.gravatar_md5 }}{% endraw %}?s=120" />
   </div>
 ```
 
@@ -158,13 +158,13 @@ This will allow the CSS to be applied to your gravatar properly.
 
 ### Contact List
 
-Below the logo, we have some stylish icons that link to various methods of contacting me. These icons are from the excellent (and free) [Font Awesome icon pack](http://fortawesome.github.io/Font-Awesome/), and are a breeze to install. The easiest way is to use their Bootstrap CDN: all you have to do is add the following line to your `_includes/head.html` with your other CSS links:
+Below the logo, we have some stylish icons that link to various methods of contacting me. These icons are from the excellent (and free) [Font Awesome icon pack](https://fortawesome.github.io/Font-Awesome/), and are a breeze to install. The easiest way is to use their Bootstrap CDN: all you have to do is add the following line to your `_includes/head.html` with your other CSS links:
 
 ```html
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 ```
 
-Now you have access to the icons, but how do you use them? I will show you some example code below, which works with your `_config.yml` file, but first take a look at the [519 icons included in the Font Awesome pack](http://fortawesome.github.io/Font-Awesome/icons/). Chances are you'll find some that you like better than the ones I use, or you'll find one for a social media account that I don't have linked, but that you do. 
+Now you have access to the icons, but how do you use them? I will show you some example code below, which works with your `_config.yml` file, but first take a look at the [519 icons included in the Font Awesome pack](https://fortawesome.github.io/Font-Awesome/icons/). Chances are you'll find some that you like better than the ones I use, or you'll find one for a social media account that I don't have linked, but that you do. 
 
 On to the code: the first thing you'll want to do is set up a div container for your contact list, like so:
 
@@ -176,7 +176,7 @@ On to the code: the first thing you'll want to do is set up a div container for 
 
 You will want one of these div containers for each row of icons you want to use. Within these, you will add an if block that will display an icon and link if you have specified the site in your config. 
 
-In the example below, your config is checked to see if you have defined an attribute named `github` under `author`, and if it is present a link to github is constructed with your github username (assuming that's what the `github` attribute is set to). Within that `a` tag is a `span` tag with a `class` attribute that tells it to stack the images within. We are stacking icons to allow for a border, which is defined by the first `i` tag and the enclosed icon in the second `i` tag. For more examples on what you can do with the Font Awesome CSS, see their [examples page](http://fortawesome.github.io/Font-Awesome/examples/).
+In the example below, your config is checked to see if you have defined an attribute named `github` under `author`, and if it is present a link to github is constructed with your github username (assuming that's what the `github` attribute is set to). Within that `a` tag is a `span` tag with a `class` attribute that tells it to stack the images within. We are stacking icons to allow for a border, which is defined by the first `i` tag and the enclosed icon in the second `i` tag. For more examples on what you can do with the Font Awesome CSS, see their [examples page](https://fortawesome.github.io/Font-Awesome/examples/).
 
 {% raw %}
 ```html

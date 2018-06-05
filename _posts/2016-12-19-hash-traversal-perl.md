@@ -30,7 +30,7 @@ sub flatten_hash {
 
 ## Iteration
 
-As a necessity, we need to iterate over the keys of the hash we are working on. Instead of the more common `foreach my $key (keys %hash)` idiom, we will instead use the `each` built-in. There are some [arguments against using each](http://blogs.perl.org/users/rurban/2014/04/do-not-use-each.html), which include the fact that the `each` internals can get confused if the original hash is modified while being iterated through. Luckily, that doesn't cover our use case, and `each` is fine to use here. Use caution with it in general, though. 
+As a necessity, we need to iterate over the keys of the hash we are working on. Instead of the more common `foreach my $key (keys %hash)` idiom, we will instead use the `each` built-in. There are some [arguments against using each](https://blogs.perl.org/users/rurban/2014/04/do-not-use-each.html), which include the fact that the `each` internals can get confused if the original hash is modified while being iterated through. Luckily, that doesn't cover our use case, and `each` is fine to use here. Use caution with it in general, though. 
 
 `each` returns to us the key and value of each element of a hash. We will unpack those results as we iterate, and also set up the recursive call and the list of previous keys. 
 
@@ -115,4 +115,4 @@ print "Result\n";
 print Dumper(\%res);
 {% endhighlight %}
 
-This code grew out of modifications I made to the excellent answer given in [this Stack Overflow answer](http://stackoverflow.com/questions/160175/traversing-a-multi-dimensional-hash-in-perl), which gives a basic template to traversing a hash with a callback in Perl. 
+This code grew out of modifications I made to the excellent answer given in [this Stack Overflow answer](https://stackoverflow.com/questions/160175/traversing-a-multi-dimensional-hash-in-perl), which gives a basic template to traversing a hash with a callback in Perl. 

@@ -56,9 +56,9 @@ Here comes the Perl magic, can you see all the things that are accomplished in t
 @my_hash{@new_keys} = delete @my_hash{keys %my_hash};
 {% endhighlight%}
 
-Here we finally make use of [hash slices](http://perldoc.perl.org/perldata.html#Slices) - twice, in fact. Both times that we encounter `my_hash`, it's in a list context, as are the keys that we are addressing. This technique allows us to operate on or assign to a list of keys all at once. So `@my_hash{keys %my_hash}`, in the state it is in now, gives us a list of all the values that are in `my_hash`. Why are we calling `delete` on those, though? `delete` has an interesting side effect beyond deleting things: `delete` also returns what it is deleting. 
+Here we finally make use of [hash slices](https://perldoc.perl.org/perldata.html#Slices) - twice, in fact. Both times that we encounter `my_hash`, it's in a list context, as are the keys that we are addressing. This technique allows us to operate on or assign to a list of keys all at once. So `@my_hash{keys %my_hash}`, in the state it is in now, gives us a list of all the values that are in `my_hash`. Why are we calling `delete` on those, though? `delete` has an interesting side effect beyond deleting things: `delete` also returns what it is deleting. 
 
-So not only do we delete the old values from the hash, we load them in to the appropriate new keys, all in one line! We can also guarantee that the values get loaded into the correct keys. This is because `keys` returns [entries in the same random order for the same hash](http://perldoc.perl.org/functions/keys.html). This depends on the hash not changing between calls to `keys`. 
+So not only do we delete the old values from the hash, we load them in to the appropriate new keys, all in one line! We can also guarantee that the values get loaded into the correct keys. This is because `keys` returns [entries in the same random order for the same hash](https://perldoc.perl.org/functions/keys.html). This depends on the hash not changing between calls to `keys`. 
 
 To put it all together, we have three lines (any wizards want to make it even shorter?) that, in effect, will run a regex substitution on all keys of a hash, seemingly in place. 
 
