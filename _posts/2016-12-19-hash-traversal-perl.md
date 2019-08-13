@@ -108,7 +108,7 @@ my $test_hash = {
 };
 
 my %empty;
-my %res = flatten_hash(\%empty, hashref => $test_hash, arguments => []);
+my %res = flatten_hash(\%empty, original_hash => $test_hash, arguments => []);
 print "Test hash:\n";
 print Dumper($test_hash);
 print "Result\n";
